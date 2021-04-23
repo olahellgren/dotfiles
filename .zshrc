@@ -17,3 +17,6 @@ export NVM_DIR="$HOME/.nvm"
 # jEnv config
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+
+# Git config and aliases
+git config --global alias.lg=log --format='%C(auto)%h : %C(white)%cr - %C(auto)%s %d %C(blue)(%an)'
